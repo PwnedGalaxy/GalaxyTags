@@ -1,6 +1,6 @@
 name: GalaxyTags
 main: pluginPackage.Main
-version: 1.1
+version: 1.2
 commands:
     gtadd:
       description: Adds a given "tag" to the held item.

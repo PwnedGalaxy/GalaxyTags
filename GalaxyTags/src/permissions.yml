@@ -1,0 +1,8 @@
+galaxytags.admin:
+       description: all the admin stuff for GalaxyTags
+       default: op
+       children:
+              galaxytags.admin.remove: true
+galaxytags.admin.remove:
+       description: permission to remove a tag
+       default: op

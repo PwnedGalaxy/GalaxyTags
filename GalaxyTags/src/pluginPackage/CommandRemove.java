@@ -31,7 +31,7 @@ public class CommandRemove implements CommandExecutor{
 			} else if (heldItem.getItemMeta().hasLore()) {
 				List<String> lore = heldItem.getItemMeta().getLore();
 				
-				if(player.hasPermission("galaxytags.adminremove") || (lore.get(0) == uuid.toString()) || (player.isOp())) {
+				if(player.hasPermission("galaxytags.adminremove") || (lore.get(0).equals(uuid.toString())) || (player.isOp())) {
 					
 					meta.setLore(null);
 					heldItem.setItemMeta(meta);
