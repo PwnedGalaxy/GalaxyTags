@@ -1,0 +1,10 @@
+name: GalaxyTags
+main: pluginPackage.Main
+version: 1.1
+commands:
+    gtadd:
+      description: Adds a given "tag" to the held item.
+      usage: /gtadd TAGNAME
+    gtremove:
+      description: Removes the data on the held item.
+      usage: /gtremove
